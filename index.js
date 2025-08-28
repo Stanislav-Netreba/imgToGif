@@ -18,7 +18,7 @@ client.on('ready', () => {
 });
 
 client.on('messageCreate', async (message) => {
-	if (message.author.bot || !message.reference || message.content.toLowerCase() !== 'порно!') {
+	if (message.author.bot || !message.reference || message.content.toLowerCase() !== '!гіф') {
 		return;
 	}
 
